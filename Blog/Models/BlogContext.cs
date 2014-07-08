@@ -17,6 +17,8 @@ namespace Blog.Models
     
         public BlogContext() : base("name=BlogContext")
         {
+            this.Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
+            this.Configuration.ProxyCreationEnabled = false;
         }
 
         public System.Data.Entity.DbSet<Blog.Models.Page> Pages { get; set; }
