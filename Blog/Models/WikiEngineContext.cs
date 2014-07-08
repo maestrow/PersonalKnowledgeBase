@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Blog.Models
 {
-    public class BlogContext : DbContext
+    public class WikiEngineContext : DbContext
     {
         // You can add custom code to this file. Changes will not be overwritten.
         // 
@@ -15,7 +15,7 @@ namespace Blog.Models
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
     
-        public BlogContext() : base("name=BlogContext")
+        public WikiEngineContext() : base("name=WikiEngineContext")
         {
             this.Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
             this.Configuration.ProxyCreationEnabled = false;

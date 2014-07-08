@@ -8,7 +8,7 @@ using Blog.Models;
 
 namespace Blog
 {
-    public class DbInitializer: DropCreateDatabaseIfModelChanges<BlogContext>
+    public class DbInitializer: DropCreateDatabaseIfModelChanges<WikiEngineContext>
     {
         private DbInitializer() {}
 
@@ -24,7 +24,7 @@ namespace Blog
             }
         }
 
-        protected override void Seed(BlogContext context)
+        protected override void Seed(WikiEngineContext context)
         {
             context.Pages.AddOrUpdate(page => page.Id,
                 new Page() { CreatedAt = new DateTime(2014, 07, 03), LastEditAt = new DateTime(2014, 07, 07), Title = "111", Content = "aaaaa" },

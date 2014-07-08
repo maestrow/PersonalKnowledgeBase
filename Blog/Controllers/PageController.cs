@@ -15,7 +15,7 @@ namespace Blog.Controllers
 {
     public class PageController : ApiController
     {
-        private BlogContext db = new BlogContext();
+        private WikiEngineContext db = new WikiEngineContext();
 
         // GET api/Page
         public IQueryable<Page> GetPages()
