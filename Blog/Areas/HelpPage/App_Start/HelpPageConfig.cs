@@ -44,8 +44,8 @@ namespace Blog.Areas.HelpPage
             //config.SetActualRequestType(typeof(string), "Values", "Get");
 
             //// Uncomment the following to correct the sample response when the action returns an HttpResponseMessage with ObjectContent<string>.
-            //// The sample will be generated as if the controller named "Values" and action named "Post" were returning a string.
-            //config.SetActualResponseType(typeof(string), "Values", "Post");
+            //// The sample will be generated as if the controller named "Values" and action named "Page" were returning a string.
+            //config.SetActualResponseType(typeof(string), "Values", "Page");
         }
     }
 }
