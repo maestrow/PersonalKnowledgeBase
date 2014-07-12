@@ -124,6 +124,7 @@
     <Compile Include="App_Start\DbInitializer.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SerializationConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
     <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
@@ -213,6 +214,8 @@
     <Content Include="index.html" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
+    <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-resource.min.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular-sanitize.js" />
@@ -223,8 +226,12 @@
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <Content Include="Scripts\angular-resource.min.js.map" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\app\app.js" />
+    <Content Include="Scripts\app\controllers.js" />
+    <Content Include="Scripts\app\services.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />

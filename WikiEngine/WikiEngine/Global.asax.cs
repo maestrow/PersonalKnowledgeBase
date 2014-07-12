@@ -20,6 +20,7 @@ namespace WikiEngine
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Database.SetInitializer(DbInitializer.Instance);
+            SerializationConfig.Configure();
         }
     }
 }
