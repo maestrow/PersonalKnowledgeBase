@@ -1,0 +1,20 @@
+﻿<div class="row" ng-controller="PageList">
+    <table border="1">
+        <thead>
+        <th>Изменен</th>
+        <th>Заголовок</th>
+        <th></th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in items">
+                <td>{{item.lastEditAt}}</td>
+                <td>{{item.title}}</td>
+                <td>
+                    <a href="#/page/{{item.id}}">open</a>
+                    <a href="#/page/{{item.id}}/edit">edit</a>
+                    <a href="#/page/{{item.id}}/delete">delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
