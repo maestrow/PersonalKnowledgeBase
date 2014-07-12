@@ -5,8 +5,23 @@
 </div>
 <div class="row" ng-controller="PageList">
     <ul>
-        <li ng-repeat="page in pages">
-            {{page.title}}
-        </li>
+        <table border="1">
+            <thead>
+                <th>Изменен</th>
+                <th>Заголовок</th>
+                <th></th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in items">
+                    <td>{{item.lastEditAt}}</td>
+                    <td>{{item.title}}</td>
+                    <td>
+                        <a href="#">open</a>
+                        <a href="#">edit</a>
+                        <a href="#">delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </ul>
 </div>

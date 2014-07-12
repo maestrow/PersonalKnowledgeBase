@@ -29,7 +29,7 @@ namespace WikiEngine
                 "~/Scripts/angular-resource.js"
                 ));
 
-            bundles.Add(new ScriptBundle("~/bundles/app").Include("~/Scripts/app/*.js"));
+            bundles.Add(new ScriptBundle("~/bundles/app").Include("~/app/*.js"));
         }
     }
 }
