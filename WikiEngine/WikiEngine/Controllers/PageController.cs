@@ -9,9 +9,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Blog.Models;
+using WikiEngine.Models;
 
-namespace Blog.Controllers
+namespace WikiEngine.Controllers
 {
     public class PageController : ApiController
     {

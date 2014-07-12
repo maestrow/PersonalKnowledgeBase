@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace Blog.Models
+namespace WikiEngine.Models
 {
     public class WikiEngineContext : DbContext
     {
@@ -21,7 +21,7 @@ namespace Blog.Models
             this.Configuration.ProxyCreationEnabled = false;
         }
 
-        public System.Data.Entity.DbSet<Blog.Models.Page> Pages { get; set; }
+        public System.Data.Entity.DbSet<WikiEngine.Models.Page> Pages { get; set; }
     
     }
 }

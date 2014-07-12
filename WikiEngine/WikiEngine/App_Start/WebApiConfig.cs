@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Blog
+namespace WikiEngine
 {
     public static class WebApiConfig
     {

@@ -7,9 +7,9 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Blog.Areas.HelpPage.Models;
+using WikiEngine.Areas.HelpPage.Models;
 
-namespace Blog.Areas.HelpPage
+namespace WikiEngine.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

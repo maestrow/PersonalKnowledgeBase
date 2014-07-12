@@ -13417,7 +13417,7 @@ function $SceDelegateProvider() {
  *
  * Note:  When enabled (the default), IE8 in quirks mode is not supported.  In this mode, IE8 allows
  * one to execute arbitrary javascript by the use of the expression() syntax.  Refer
- * <http://blogs.msdn.com/b/ie/archive/2008/10/16/ending-expressions.aspx> to learn more about them.
+ * <http://WikiEngines.msdn.com/b/ie/archive/2008/10/16/ending-expressions.aspx> to learn more about them.
  * You can ensure your document is in standards mode and not quirks mode by adding `<!doctype html>`
  * to the top of your HTML document.
  *
@@ -13433,7 +13433,7 @@ function $SceDelegateProvider() {
  *
  * Notice that `ng-bind-html` is bound to `userHtml` controlled by the user.  With SCE
  * disabled, this application allows the user to render arbitrary HTML into the DIV.
- * In a more realistic example, one may be rendering user comments, blog articles, etc. via
+ * In a more realistic example, one may be rendering user comments, WikiEngine articles, etc. via
  * bindings.  (HTML is just one example of a context where rendering user controlled input creates
  * security vulnerabilities.)
  *

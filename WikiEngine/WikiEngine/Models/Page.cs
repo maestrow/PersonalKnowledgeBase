@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Blog.Models
+namespace WikiEngine.Models
 {
     public class Page
     {

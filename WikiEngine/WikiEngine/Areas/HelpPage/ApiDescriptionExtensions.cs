@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace Blog.Areas.HelpPage
+namespace WikiEngine.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

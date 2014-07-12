@@ -4,9 +4,9 @@ using System.Data.Entity;
 using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Web;
-using Blog.Models;
+using WikiEngine.Models;
 
-namespace Blog
+namespace WikiEngine
 {
     public class DbInitializer: DropCreateDatabaseIfModelChanges<WikiEngineContext>
     {
