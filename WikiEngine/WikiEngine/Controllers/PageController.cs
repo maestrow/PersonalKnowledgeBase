@@ -37,7 +37,7 @@ namespace WikiEngine.Controllers
         }
 
         // PUT api/Page/5
-        public async Task<IHttpActionResult> PutPage(int id, Page page)
+        public async Task<IHttpActionResult> PutPage(int id, [FromBody] Page page)
         {
             if (!ModelState.IsValid)
             {

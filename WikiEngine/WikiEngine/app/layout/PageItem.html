@@ -1,5 +1,14 @@
 ﻿<div class="row" ng-controller="PageItem">
-    <h3>{{item.title}}</h3>
-    <div>Изменен: {{item.lastEditAt}}, Создан: {{item.createdAt}}</div>
-    <div>{{item.content}}</div>
+    <div ng-hide="editorEnabled">
+        <a href ng-click="startEditing()">Редактировать</a>
+        <h3>{{item.title}}</h3>
+        <div>Изменен: {{item.lastEditAt}}, Создан: {{item.createdAt}}</div>
+        <div>{{item.content}}</div>
+    </div>
+    <div ng-show="editorEnabled">
+        <input ng-model="item.title" size="80" />
+        <br/>
+        <textarea ng-model="item.content" rows="20" cols="80"></textarea>
+        <a href ng-click="save()">Завершить</a>
+    </div>
 </div>
